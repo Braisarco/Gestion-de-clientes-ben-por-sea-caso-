@@ -90,7 +90,7 @@ namespace gestor_stock_clientes.Properties
                 List<int> codigos = new List<int>();
                 foreach (XElement codigo in cliente.Elements("codigo"))
                 {
-                    codigos.Append(int.Parse(codigo.Value));
+                    codigos.Add(int.Parse(codigo.Value));
                 }
                 toret.Add(new Cliente(cif,nombre,direccion,codigos));
             }

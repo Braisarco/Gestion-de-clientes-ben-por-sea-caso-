@@ -25,6 +25,8 @@ public partial class MainWindow : Window
 
         UpdateView();
 
+        
+        
         var botonAnhadir = this.FindControl<Button>("nuevoCliente");
         var textoBuscar = this.FindControl<TextBox>("buscador");
         
@@ -63,7 +65,9 @@ public partial class MainWindow : Window
     {
         Clientes auxiliar = new Clientes(this.clientes.ListaClientes);
         Button boton = (Button)sender;
+        
         this.clientes.EliminarCliente(boton.Tag.ToString());
+        this.clientes.saveXML();
         
         UpdateView();
     }

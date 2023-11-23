@@ -21,7 +21,7 @@
                                          VerticalAlignment="Center"
                                          Name="buscador"/>
                                 
-                                <Border BorderBrush="White"
+                                <Border BorderBrush="Black"
                                         BorderThickness="2"
                                         CornerRadius="3"
                                         Padding="10"
@@ -50,7 +50,7 @@
                                                 <ItemsControl.ItemTemplate>
                                                         <DataTemplate>
                                                                 <Border Background="SlateGray"
-                                                                        BorderBrush="White"
+                                                                        BorderBrush="Black"
                                                                         BorderThickness="2"
                                                                         CornerRadius="3"
                                                                         Padding="4"
@@ -79,7 +79,7 @@
                                                                         
                                                                                 <DockPanel Margin="0,10">
                                                                                         <Label VerticalAlignment="Center">Lista de productos: </Label>
-                                                                                        <TextBlock VerticalAlignment="Center"  Text="{Binding CodigoPiezasVendidas}"></TextBlock>
+                                                                                        <TextBlock VerticalAlignment="Center"  Text="{Binding CodigoPiezasVendidasString}"></TextBlock>
                                                                                 </DockPanel>
                                                                         </StackPanel>
                                                                 </Border>

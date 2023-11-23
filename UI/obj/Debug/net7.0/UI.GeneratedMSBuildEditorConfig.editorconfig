@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
-build_property.ProjectDir = C:\Users\Brais\Desktop\Gestorclientes\UI\
+build_property.ProjectDir = C:\Users\Admin\RiderProjects\GestorClientes\UI\
 
-[C:/Users/Brais/Desktop/Gestorclientes/UI/App.axaml]
+[C:/Users/Admin/RiderProjects/GestorClientes/UI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Brais/Desktop/Gestorclientes/UI/MainWindow.axaml]
+[C:/Users/Admin/RiderProjects/GestorClientes/UI/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

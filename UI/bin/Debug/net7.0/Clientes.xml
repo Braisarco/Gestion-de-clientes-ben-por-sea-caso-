@@ -11,13 +11,12 @@
   <cliente cif="99999999L">
     <nombre>Mopa</nombre>
     <direccion>Vigo</direccion>
+    <codigo>534</codigo>
+    <codigo>436</codigo>
+    <codigo>7654</codigo>
   </cliente>
   <cliente cif="23452345">
     <nombre>Alicia</nombre>
     <direccion>Jures de arriba de cee no medio da coruña</direccion>
-  </cliente>
-  <cliente cif="1234">
-    <nombre>Señor temporal</nombre>
-    <direccion>santiago</direccion>
   </cliente>
 </clientes>

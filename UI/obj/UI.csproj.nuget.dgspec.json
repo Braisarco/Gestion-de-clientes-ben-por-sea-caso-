@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brais\\Desktop\\Gestorclientes\\UI\\UI.csproj": {}
+    "C:\\Users\\Admin\\RiderProjects\\GestorClientes\\UI\\UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brais\\Desktop\\Gestorclientes\\UI\\UI.csproj": {
+    "C:\\Users\\Admin\\RiderProjects\\GestorClientes\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brais\\Desktop\\Gestorclientes\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\GestorClientes\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "C:\\Users\\Brais\\Desktop\\Gestorclientes\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\Brais\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brais\\Desktop\\Gestorclientes\\UI\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\RiderProjects\\GestorClientes\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\RiderProjects\\GestorClientes\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Brais\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

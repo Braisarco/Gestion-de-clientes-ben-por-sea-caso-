@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Runtime.InteropServices.JavaScript;
+using System.Text;
 using System.Xml.Linq;
 
 namespace gestor_stock_clientes.Properties
@@ -81,10 +83,22 @@ namespace gestor_stock_clientes.Properties
         {
             get => this.codigoPiezasVendidas;
         }
+        public string CodigoPiezasVendidasString
+        {
+            get
+            {
+                StringBuilder toret = new StringBuilder();
+                foreach (int codigo in this.codigoPiezasVendidas)
+                {
+                    toret.Append($" |{codigo}| ");
+                }
+                return toret.ToString();
+            }
+         }
         
         public override string ToString()
         {
-            return $"CIF: {this.cif}\nNombre: {this.nombre}\nDireccion: {this.direccionFacturacion}";
+            return $"CIF: {this.cif}\nNombre: {this.nombre}\nDireccion: {this.direccionFacturacion}\nCodigos: {CodigoPiezasVendidasString}";
         }
     }
 }
